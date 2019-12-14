@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Amatic SC';
+    src: url('../fonts/AmaticSC-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Amatic SC';
+    src: url('../fonts/AmaticSC-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+li {
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    background-color: #21aff3a6;
+    background: url('../img/bg_pixel.jpg') no-repeat center bottom;
+    background-size: cover;
+    overflow-x: hidden;
+}
+.container {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+/* Header */
+header {
+    height: 300px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.logo a {
+    width: 450px;
+    margin-top: 7px;
+}
+.graficlogo {
+    width:100%
+}
+.topnav {
+    width: 800px;
+    margin: 10px auto;
+}
+.topnav > ul {
+    display: flex;
+    justify-content: space-around;
+}
+.topnav > ul li {
+    flex-grow: 1;
+    text-align: center;
+    flex-basis: 0;
+}
+.topnav a {
+    color: #000;
+    width: 100%;
+    display: inline-block;
+    font-size: 35px;
+    transition: all 0.3s;
+}
+.topnav a:hover {
+    border: 1px solid #000;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px black;
+    font-size: 38px;
+    background-color: bisque;
+}
+.submenu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    transition: all 0.3s;
+    opacity: 0;
+
+}
+.submenu > li {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.janry:hover .submenu {
+    display: flex;
+    animation: box 1s forwards;
+}
+.cloud {
+    position: absolute;
+}
+.cloud1 { 
+    left: -260px;
+    top: 270px;
+    animation: cloud1 2s ease-in-out forwards;
+}
+.cloud2 {
+    top: 300px;
+    right: -260px;
+    animation: cloud2 2.3s ease-in-out forwards;
+}
+.cloud3 {
+    top: 350px;
+    right: -200px;
+    animation: cloud3 1.8s ease-in-out forwards;
+}
+.cloud4 { 
+    left: -230px;
+    top: 230px;
+    animation: cloud4 2.1s ease-in-out forwards;
+}
+.sun { 
+    right: 80px;
+    top: -100px;
+    animation: sun 2.5s ease-in-out forwards;
+}
+/* Main */
+main {
+    height: 700px;
+}
+
+
+@keyframes box {
+    from { opacity: 0;}
+    to { opacity: 1;}
+}
+@keyframes cloud1 {
+    from { left: -260px; }
+    to { left: 160px; }
+}
+@keyframes cloud2 {
+    from { right: -260px; }
+    to { right: 200px; }
+}
+@keyframes cloud3 {
+    from { right: -260px; }
+    to { right: 500px; }
+}
+@keyframes cloud4 {
+    from { left: -260px; }
+    to { left: 500px; }
+}
+@keyframes sun {
+    from { top: -230px; }
+    to { top: 10px; }
+}
