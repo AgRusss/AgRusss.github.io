@@ -1,10 +1,28 @@
 @font-face {
+    font-family: 'F77 Minecraft';
+    src: url('../fonts/F77-Minecraft.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
     font-family: 'Amatic SC';
     src: url('../fonts/AmaticSC-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'Amatic SC';
     src: url('../fonts/AmaticSC-Bold.woff') format('woff');
@@ -126,8 +144,31 @@ header {
 }
 /* Main */
 main {
+    font-family: Roboto;
+    margin-top: 200px;
     height: 700px;
 }
+h1 {
+    margin-bottom: 20px;
+    font-family: F77 Minecraft;
+    text-align: center;
+    font-size: 40px;
+}
+.gamedescription {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.gamedescription strong {
+    font-size: 24px;
+    font-weight: bold;
+}
+.description {
+    font-size: 40px;
+}
+
+
+
+
 
 
 @keyframes box {
