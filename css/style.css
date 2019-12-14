@@ -81,12 +81,14 @@ header {
     background-color: bisque;
 }
 .submenu {
+    position: relative;
     display: none;
     flex-direction: column;
     width: 100%;
     transition: all 0.3s;
     opacity: 0;
-
+    height: 125px;
+    z-index: 2;
 }
 .submenu > li {
     flex-grow: 1;
@@ -98,6 +100,7 @@ header {
 }
 .cloud {
     position: absolute;
+    z-index: 0;
 }
 .cloud1 { 
     left: -260px;
