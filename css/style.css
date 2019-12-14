@@ -109,7 +109,7 @@ header {
     width: 100%;
     transition: all 0.3s;
     opacity: 0;
-    height: 125px;
+    height: 240px;
     z-index: 2;
 }
 .submenu > li {
@@ -157,7 +157,7 @@ main {
     height: 700px;
 }
 h1 {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     font-family: F77 Minecraft;
     text-align: center;
     font-size: 40px;
@@ -171,13 +171,17 @@ h1 {
     font-weight: bold;
 }
 .description {
-    font-size: 40px;
+    font-size: 20px;
 }
 
 
 
 
-
+.copyright {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
 
 @keyframes box {
     from { opacity: 0;}
