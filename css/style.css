@@ -376,29 +376,33 @@ footer {
     }
     .cloud1 { 
         left: 0px;
+        animation: cloud5 2s ease-in-out forwards;
     }
     .cloud2 {
         right: 0px;
+        animation: cloud6 2s ease-in-out forwards;
     }
     .cloud3 {
         right: -0px;
+        animation: cloud7 2s ease-in-out forwards;
     }
     .cloud4 { 
         left: 0px;
+        animation: cloud8 2s ease-in-out forwards;
     }
-    @keyframes cloud1 {
+    @keyframes cloud5 {
         from { left: 0px; }
         to { left: 160px; }
     }
-    @keyframes cloud2 {
+    @keyframes cloud6 {
         from { right: 0px; }
         to { right: 200px; }
     }
-    @keyframes cloud3 {
+    @keyframes cloud7 {
         from { right: 0px; }
         to { right: 500px; }
     }
-    @keyframes cloud4 {
+    @keyframes cloud8 {
         from { left: 0px; }
         to { left: 500px; }
     }
