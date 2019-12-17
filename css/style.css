@@ -281,10 +281,6 @@ footer {
     font-size: 20px;
     text-align: center;
 }
-
-
-
-
 .descr-item {
     display: flex;
     align-items: center;
@@ -314,15 +310,11 @@ footer {
 .descr__text {
     margin-left: 20px;
 }
-
-
-
-
-
-
-
-
-
+.map__inner{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
 @keyframes gif {
     from { left: -260px; }
     to {     left: 50%;
