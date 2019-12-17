@@ -307,6 +307,9 @@ footer {
     right: 0;
 
 }
+.intro {
+    text-align: center;
+}
 .descr__text {
     margin-left: 20px;
 }
