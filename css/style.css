@@ -270,6 +270,7 @@ p {
 }
 
 footer {
+    margin-top: auto;
     text-align: center;
 }
 .copyright {
@@ -373,6 +374,11 @@ footer {
     .pictures {
         flex-direction: column;
     }
+@media screen and (min-width: 500px) {
+    footer {
+        margin-top: 300px;
+    }
+}
     /* .cloud1 { 
         left: 0px;
         animation: cloud5 2s ease-in-out forwards;
