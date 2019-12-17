@@ -367,13 +367,10 @@ footer {
     body {
         min-height: 100vh;
     }
-    header {
-        height: auto;
-    }
     .pictures {
         flex-direction: column;
     }
-    .cloud1 { 
+    /* .cloud1 { 
         left: 0px;
         animation: cloud5 2s ease-in-out forwards;
     }
@@ -404,5 +401,5 @@ footer {
     @keyframes cloud8 {
         from { left: 0px; }
         to { left: 500px; }
-    }
+    } */
 }
