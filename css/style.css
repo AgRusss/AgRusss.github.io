@@ -43,6 +43,7 @@ li {
     list-style: none;
 }
 body {
+    
     background-color: #21aff3a6;
     background: url('../img/bg_pixel.jpg') no-repeat center bottom;
     background-size: cover;
@@ -103,6 +104,7 @@ header {
     background-color: bisque;
 }
 .submenu {
+    background-color: #78c9f8;
     position: relative;
     display: none;
     flex-direction: column;
@@ -111,6 +113,7 @@ header {
     opacity: 0;
     height: 240px;
     z-index: 2;
+    border: 1px solid black;
 }
 .submenu > li {
     flex-grow: 1;
@@ -123,6 +126,13 @@ header {
 .cloud {
     position: absolute;
     z-index: 0;
+}
+.gif {
+    height: 200px;
+    left: -400px;
+    top: 350px;
+    animation: gif 3s ease-in-out forwards;
+    z-index: 2;
 }
 .cloud1 { 
     left: -260px;
@@ -150,9 +160,12 @@ header {
     animation: sun 2.5s ease-in-out forwards;
 }
 /* Main */
-main {
+main  {
     display: block;
     font-family: Roboto;
+
+}
+.maindex {
     margin-top: 200px;
     height: 700px;
 }
@@ -174,15 +187,148 @@ h1 {
     font-size: 20px;
 }
 
+/* Action */
+h2 {
+    left: 30px;
+    margin-bottom: 50px;
+    font-family: F77 Minecraft;
+    font-size: 40px;
+}
 
+p {
+    text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    text-shadow: 0px 1px 0px rgba(255,255,255,0.55);
+}
+.pictures > li:hover > .picture {
+    transform: rotateY(180deg);
+}
+.picture {
+    transition: all 0.5s ease-in-out;
+    transform: rotateY(0deg);
+    height: 200px;
+    border: 2px solid white;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.pictures {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.cloud_action {
+    top: 300px;
+    z-index: -1;
+    height: 240px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.sims {
+    height: auto;
+    border: 2px solid white;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.p_pictures {
+    text-align: center;
+}
+.ruslan {
+    height: 400px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+.textportfolio {
+    font-size: 30px;
+    text-align: left;
+}
+.portfolio {
+    display: flex;
+    justify-content: space-around;
+    background-color: #d8ebf4;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 50px;
+}
+.portfolio div {
+    margin-right: 20px;
+}
+.insta {
+    margin-left: 20px;
+    height: 50px;
+}
+.vk {
+    margin-left: 10px;
+    height: 50px;
+}
+.contacts {
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    font-size: 20px;
+}
 
-
+footer {
+    text-align: center;
+}
 .copyright {
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #d8ebf4;
+    margin-left: auto;
+    margin-right: ;
     font-weight: bold;
     font-size: 20px;
     text-align: center;
 }
 
+
+
+
+.descr-item {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 20px;
+    
+}
+.descr__title{
+    margin-left: 25px;
+    position: relative;
+    padding-right: 20px;
+    font-weight: 700;
+    font-size: 17px;
+}
+.descr__title::after {
+    content: "";
+    background: url(../img/subtract.png) no-repeat;
+    width: 10px;
+    height: 10px;
+    background-size: 10px 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+
+}
+.descr__text {
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+@keyframes gif {
+    from { left: -260px; }
+    to {     left: 50%;
+        transform: translate(-50%, -50%); }
+}
 @keyframes box {
     from { opacity: 0;}
     to { opacity: 1;}
@@ -211,8 +357,7 @@ h1 {
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .container {
-        width: 976px;
-    }
+    width: 976px;
 
 }
 
