@@ -367,6 +367,9 @@ footer {
     body {
         min-height: 100vh;
     }
+    header {
+        height: auto;
+    }
     .pictures {
         flex-direction: column;
     }
