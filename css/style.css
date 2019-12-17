@@ -370,11 +370,32 @@ footer {
     .pictures {
         flex-direction: column;
     }
-}
-
-/* Portrait tablets and small desktops */
-@media screen and (max-width: 767px) {
-    .container {
-        width: 100px;
+    .cloud1 { 
+        left: 0px;
+    }
+    .cloud2 {
+        right: 0px;
+    }
+    .cloud3 {
+        right: -0px;
+    }
+    .cloud4 { 
+        left: 0px;
+    }
+    @keyframes cloud1 {
+        from { left: 0px; }
+        to { left: 160px; }
+    }
+    @keyframes cloud2 {
+        from { right: 0px; }
+        to { right: 200px; }
+    }
+    @keyframes cloud3 {
+        from { right: 0px; }
+        to { right: 500px; }
+    }
+    @keyframes cloud4 {
+        from { left: 0px; }
+        to { left: 500px; }
     }
 }
