@@ -364,12 +364,8 @@ footer {
     .container {
         width: 768px;
     }
-    header {
-        overflow-x: hidden;
-    }
     body {
         min-height: 100vh;
-        overflow-x: hidden;
     }
     .pictures {
         flex-direction: column;
