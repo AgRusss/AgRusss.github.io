@@ -108,7 +108,7 @@ header {
     position: relative;
     display: none;
     flex-direction: column;
-    width: 100%;
+    width: 160px;
     transition: all 0.3s;
     opacity: 0;
     height: 240px;
