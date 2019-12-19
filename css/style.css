@@ -127,13 +127,6 @@ header {
     position: absolute;
     z-index: 0;
 }
-.gif {
-    height: 200px;
-    left: -400px;
-    top: 350px;
-    animation: gif 3s ease-in-out forwards;
-    z-index: 2;
-}
 .cloud1 { 
     left: -260px;
     top: 270px;
