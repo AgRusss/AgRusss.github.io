@@ -367,7 +367,10 @@ footer {
 .table_container {
     width: 100%;
 }
-.table-body .container {
+.table-body .container1 {
+    width: auto;
+}
+.container1 {
     width: auto;
 }
 table {
