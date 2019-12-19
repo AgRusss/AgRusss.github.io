@@ -357,9 +357,23 @@ footer {
     border-top: 5px solid white;
     border-left: 5px solid white;
 }
+.sources {
+    display: inline-block;
+}
+.jeanar article {
+    display: flex;
+    justify-content: center;
+}
+.table_container {
+    width: 100%;
+}
+.table-body .container {
+    width: auto;
+}
 table {
     margin: 0 auto 20px auto;
 }
+
 @keyframes gif {
     from { left: -260px; }
     to {     left: 50%;
