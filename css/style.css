@@ -164,7 +164,7 @@ main  {
 }
 h1 {
     margin-bottom: 50px;
-    font-family: F77 Minecraft;
+    font-family: "F77 Minecraft";
     text-align: center;
     font-size: 40px;
 }
@@ -184,7 +184,7 @@ h1 {
 h2 {
     left: 30px;
     margin-bottom: 50px;
-    font-family: F77 Minecraft;
+    font-family: "F77 Minecraft";
     font-size: 40px;
 }
 
